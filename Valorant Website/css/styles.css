@@ -1,0 +1,547 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+p{
+  color: grey;
+}
+#title{
+  background-color: #C22828;
+  padding: 3% 10% 5%;
+
+}
+
+
+.brand-title{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight:700;
+  font-size: 2rem;
+}
+
+.links{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1.20rem;
+}
+.title-billing{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+
+.nav-list{
+  padding: 0 18px;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.title-quote{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 5rem;
+  line-height: 1.3;
+  color: white;
+}
+
+.title-quote:hover{
+  color:#311D3F;
+}
+
+.title-img:hover{
+  transform: scale(1.2);
+}
+
+.btn-download{
+  margin: 5% 1% 5% 0;
+}
+
+.fa-brands{
+  margin: 8px;
+}
+.title-img{
+  width: 60%;
+   transform: rotate(0);
+   position: absolute;
+   left: 10rem;
+   top: 1rem;
+
+
+}
+
+.column-two{
+  padding: 3%;
+}
+
+
+
+
+.navbar-img{
+  width:6%;
+  padding: 5px;
+}
+
+
+/*features section*/
+#features{
+  padding: 7% 14%;
+  text-align: center;
+  position: relative;
+  background-color: #F6E1B5;
+z-index: 1;
+}
+
+.fa-icons{
+  color: #C22828;
+margin:1rem;
+}
+
+.fa-icons:hover{
+  color:black;
+  }
+
+  .feature-title{
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+.feature-col{
+  padding: 5%;
+}
+/*testimonials section*/
+#testimonials{
+  background-color: #C22828;
+  text-align: center;
+  color: white;
+}
+
+.testimonial-image{
+  border-radius: 50%;
+  width: 10%;
+  margin: 20px;
+}
+
+.testimonial-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.carousel-item{
+  padding: 7% 14%;
+}
+/*press section*/
+
+#press{
+  background-color:#F6E1B5;
+  text-align: center;
+  color: white;
+  padding: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px;
+}
+.valopress-logo{
+  width: 10%;
+  margin: 20px;
+}
+
+/*pricing section*/
+
+#pricing{
+  text-align: center;
+  padding: 50px;
+  background-color: #F6E1B5;
+}
+
+#pricing-vandal{
+  text-align: center;
+  padding: 5px;
+  background-color: #F6E1B5;
+}
+.vandal{
+  padding: 10px;
+  width: 80%;
+}
+.phantom{
+  padding: 10px;
+  width: 90%;
+}
+.claw{
+  padding: 10px;
+  width: 50%;
+}
+.price-heading, .price-text{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/*CTA section*/
+#cta{
+  background-color: #C22828;
+  padding: 7% 14%;
+  text-align: center;
+}
+.cta-title{
+  font-weight: 900;
+  line-height: 1.5;
+  color: white;
+}
+
+.agents{
+  padding: 3% 5%;
+}
+.skin-img{
+  padding: 2px;
+}
+.card{
+  background-color: #F6E1B5;
+
+  padding: 1px ;
+  margin:3px;
+  border-radius: 3px;
+}
+.link-title{
+  text-decoration: none;
+}
+.vandal-bill{
+  margin: 20px;
+  width:95%;
+}
+#second-vandal{
+  text-align: center;
+  padding: 7% 14%;
+}
+
+.card-img-top{
+  margin: 3px;
+}
+.card-img-top:hover{
+  transform: scale(1.2);
+}
+.skins-title{
+  font-weight: 900;
+  line-height: 1.5;
+  color: #F6E1B5;
+  text-align: center;
+  background-color:black;
+  margin: 0;
+}
+
+.header-skin{
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+}
+.price-gun-text{
+  font-weight: 700;
+  font-size: 8rem;
+  line-height: 1.5;
+}
+
+.card-title{
+  font-weight: 900;
+  color: #C22828;
+  text-align: center;
+  font-size: 2rem;
+}
+.card-header{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.card-group{
+  padding: 20px ;
+  background-color:#C22828;
+}
+
+#footer{
+  text-align: center;
+  padding: 2% 14%;
+}
+
+.foot-icon{
+  padding: 20px 10px;
+}
+
+#billing{
+  background-color: #C22828;
+}
+
+
+@media (max-width:1440px) {
+  .title-quote{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+  }
+}
+
+
+@media (max-width:768px) {
+  .title-img {
+    position: relative;
+    width: 70%;
+    left: 10   0px;
+    margin-top: 50px;
+    transform: rotate(0deg);
+  }
+
+  .testimonial-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+  .card-group{
+    padding: 30px;
+  }
+.price-heading{
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+}
+
+@media (max-width:426px) {
+  .agents{
+  width:70%;
+  }
+  .title-img {
+      position: relative;
+      width: 70%;
+      left: 70px;
+      margin-top: 50px;
+      transform: rotate(0deg);
+    }
+
+.testimonial-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+    .title-quote{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      font-size: 2rem;
+      line-height: 1;
+      color: white;
+
+    }
+
+    .brand-title{
+      font-family: 'Ubuntu', sans-serif;
+      font-weight:700;
+      font-size: 1rem;
+    }
+
+    .fa-icons{
+      margin: 10px;
+    }
+}
+
+@
+
+
+/*1024*/
+
+@media (max-width: 1023px) {
+#title{
+  width: 100%;
+}
+
+#features{
+  width: 100%;
+}
+
+#testimonials{
+  width: 100%;
+}
+
+#skins{
+  width: 100%;
+}
+
+#press{
+  width: 100%;
+}
+
+#pricing{
+  width: 100%;
+}
+
+#footer{
+  width: 100%;
+}
+
+#cta{
+  width: 100%;
+}
+
+
+  .column-one{
+    text-align: center;
+  }
+
+  .price-gun-text{
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1;
+  }
+  .header-skin{
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1;
+  }
+
+.btn-vandal{
+  width: 100%;
+}
+}
+
+
+
+
+
+/*768*/
+
+@media (max-width: 769px) {
+#title{
+  width: 115%;
+}
+
+#features{
+  width: 115%;
+}
+
+#testimonials{
+  width: 115%;
+}
+
+#skins{
+  width: 115%;
+}
+
+#press{
+  width: 115%;
+}
+
+#pricing{
+  width: 115%;
+}
+
+#footer{
+  width: 115%;
+}
+
+#cta{
+  width: 115%;
+}
+
+  .column-one{
+    text-align: center;
+  }
+}
+#vandal{
+  width: 80%;
+}
+
+  .price-gun-text{
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1;
+  }
+  .header-skin{
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1;
+  }
+
+.btn-vandal{
+  width: 100%;
+}
+
+}
+
+
+/*425*/
+
+@media (max-width: 426px) {
+#title{
+  width: 80%;
+}
+
+#features{
+  width: 80%;
+}
+
+#testimonials{
+  width: 80%;
+}
+
+#skins{
+  width: 80%;
+}
+
+#press{
+  width: 80%;
+}
+
+#pricing{
+  width: 80%;
+}
+
+#footer{
+  width: 80%;
+}
+
+#cta{
+  width: 80%;
+}
+
+  .column-one{
+    text-align: center;
+  }
+
+#vandal{
+  width: 80%;
+}
+
+  .price-gun-text{
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1;
+  }
+  .header-skin{
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1;
+  }
+
+.btn-vandal{
+  width: 100%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+}
